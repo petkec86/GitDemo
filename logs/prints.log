@@ -1,0 +1,3 @@
+00:11:17.759 [TestNG-tests-1] INFO  Academy.ValidateTitle - Navigation to homepage
+00:11:23.321 [TestNG-tests-2] INFO  Academy.HomePage - Email is entered
+00:11:23.423 [TestNG-tests-2] INFO  Academy.HomePage - password is entered is entered

@@ -1,0 +1,7 @@
+23:41:47.821 [main] INFO  Academy.HomePage - Driver is initialized
+23:41:52.058 [main] INFO  Academy.HomePage - Navigation to homepage
+23:41:59.761 [main] INFO  Academy.HomePage - Email is entered
+23:41:59.819 [main] INFO  Academy.HomePage - password is entered is entered
+00:11:11.534 [TestNG-tests-2] INFO  Academy.HomePage - Driver is initialized
+00:11:11.534 [TestNG-tests-1] INFO  Academy.ValidateTitle - Driver is initialized
+00:11:14.934 [TestNG-tests-2] INFO  Academy.HomePage - Navigation to homepage

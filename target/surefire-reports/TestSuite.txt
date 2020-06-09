@@ -1,0 +1,21 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 37.719 s <<< FAILURE! - in TestSuite
+Academy.ValidateTitle.basePageNavigator  Time elapsed: 1.551 s  <<< FAILURE!
+java.lang.AssertionError: expected [FEATURED COURSES1] but found [FEATURED COURSES]
+	at Academy.ValidateTitle.basePageNavigator(ValidateTitle.java:24)
+
+Academy.HomePage.basePageNavigator  Time elapsed: 28.062 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"a[href*='sign_in']"}
+  (Session info: chrome=80.0.3987.149)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-DC88U7M', ip: '192.168.31.249', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\Petar\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60778}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2c8cead9cc5968730ee7fd050cbd2301
+*** Element info: {Using=css selector, value=a[href*='sign_in']}
+	at Academy.HomePage.basePageNavigator(HomePage.java:35)
+
